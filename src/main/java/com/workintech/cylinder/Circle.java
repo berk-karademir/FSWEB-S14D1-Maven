@@ -12,8 +12,8 @@ public class Circle {
     public double getRadius() {
         return radius;
     }
-
-    public double getArea(double radius) {
-        return Math.PI * (radius * radius);
+// circle area formula = pi * r * r
+    public double getArea() {
+        return Math.PI * ( getRadius() * getRadius() );
     }
 }
