@@ -1,8 +1,8 @@
 package com.workintech.pool;
 
 public class Rectangle {
-    double width;
-    double length;
+    private double width;
+    private double length;
 
     // constructor for both vars
     public Rectangle(double width, double length) {

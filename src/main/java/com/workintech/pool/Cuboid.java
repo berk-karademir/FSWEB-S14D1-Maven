@@ -1,7 +1,7 @@
 package com.workintech.pool;
 
 public class Cuboid extends Rectangle {
-    double height;
+    private double height;
 
     //constructor
     public Cuboid(double width, double length, double height) {
